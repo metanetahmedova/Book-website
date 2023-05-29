@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw 1vw;
+    margin: 2vw 1vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 8px;
+    
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: 1.5vw;
+  }
+
+  .main  .text h4 {
+    font-size: 1.6vw;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .main .text span {
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+  
+  
+   .main  img {
+    width: 35vw;
+    height: 30vw;
+    object-fit: cover;
+   
+
+  }
+  
+  

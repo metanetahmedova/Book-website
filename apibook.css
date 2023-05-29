@@ -1,0 +1,102 @@
+
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+  
+}
+.inp-cont{
+  display: flex;
+  gap: 14vw;
+  justify-content: space-around;
+  margin-top: 2vw;
+ 
+}
+.inp{
+  width: 11vw;
+  height: 2.2vw;
+}
+
+.m-total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.count {
+  display: flex;
+  gap: 1vw;
+}
+.price span {
+  display: block;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  margin: 2vw 0;
+}
+
+.plus {
+  font-size: 2vw;
+  cursor: pointer;
+  color: #056;
+  width: 2.5vw;
+  height: 2.5vw;
+}
+.minus {
+  font-size: 2vw;
+  cursor: pointer;
+  color: #056;
+  width: 2.5vw;
+  height: 2.5vw;
+}
+.count .num {
+  width: 3vw;
+  height: 3vw;
+  border: 1px solid #012;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count .number {
+  font-size: 1.7vw;
+  color: #056;
+  font-weight: 500;
+  text-align: center;
+}
+
+.total {
+  border: 1px solid black;
+  padding: 1vw 3vw;
+  color: #012;
+  font-size: 1.5vw;
+}
+
+.main .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2vw;
+  margin: 3vw 1vw;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main .container img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 22vw;
+  height: 25vw;
+  object-fit: cover;
+  
+}
+
+.main .container .text h4 {
+  font-size: 1.7vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main .container .text span {
+  font-size: 1.3vw;
+  font-weight: bold;
+}
